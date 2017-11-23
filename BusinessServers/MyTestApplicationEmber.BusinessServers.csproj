@@ -38,6 +38,10 @@
     <Reference Include="System.XML">
       <HintPath>System.XML.dll</HintPath>
     </Reference>
+    <ProjectReference Include="..\Objects\MyTestApplicationEmber.Objects.csproj">
+      <Project>{79298c9a-8783-4658-8caa-ca74f09b2640}</Project>
+      <Name>MyTestApplicationEmber.Objects</Name>
+    </ProjectReference>
     <Reference Include="log4net">
       <HintPath>..\packages\log4net.2.0.3\lib\net40-client\log4net.dll</HintPath>
     </Reference>
@@ -120,10 +124,6 @@
     <Reference Include="ICSSoft.STORMNET.UserDataTypes">
       <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.0.0\lib\net45\ICSSoft.STORMNET.UserDataTypes.dll</HintPath>
     </Reference>
-    <ProjectReference Include="..\Objects\MyTestApplicationEmber.Objects.csproj">
-      <Project>{79298c9a-8783-4658-8caa-ca74f09b2640}</Project>
-      <Name>MyTestApplicationEmber.Objects</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ComputerBS.cs">
